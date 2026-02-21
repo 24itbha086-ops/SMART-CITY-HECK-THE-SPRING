@@ -1,16 +1,144 @@
-# React + Vite
+# 🚀 TEAM-EAGLE — Smart Civic Issue Management Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**TEAM-EAGLE** is a next-generation **Civic Engagement Platform** that allows citizens to report city issues, track progress, and communicate with municipal staff in real time using a modern, AI-powered digital system.
 
-Currently, two official plugins are available:
+> 🌍 Making cities transparent, responsive, and citizen-friendly.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🌟 Key Features
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+### 👤 Citizen Portal
+- Secure Login & Registration  
+- Report civic issues (potholes, garbage, lighting, water, etc.)  
+- Live status tracking  
+- View personal issue history  
+- Earn points & civic ranks  
 
-## Expanding the ESLint configuration
+### 🏛 Staff Portal
+- Staff Registration with Government ID  
+- Admin Approval System  
+- Municipal Staff Dashboard  
+- Issue Assignment & Resolution Tracking  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🤖 AI & Smart Features
+- AI-powered issue classification  
+- Smart routing to departments  
+- Analytics & reporting dashboard  
+- AI suggestions for faster resolution  
+
+### 🔐 Security
+- JWT Authentication  
+- Password hashing (bcrypt)  
+- Role-based access control  
+- Staff approval workflow  
+
+---
+
+## 🧩 Tech Stack
+
+| Layer | Technology |
+|------|------------|
+| Frontend | HTML, CSS, JavaScript |
+| Backend | Node.js, Express.js |
+| Database | MongoDB |
+| Authentication | JWT + bcrypt |
+| API | RESTful APIs |
+| Tools | VS Code, Postman, GitHub |
+
+---
+
+
+
+## 🔑 Authentication Flow
+
+| User Type | Login Method |
+|----------|--------------|
+| Citizen | Email / Password |
+| Staff | Municipal SSO / Staff Login |
+| Admin | Secure Role-Based Login |
+
+---
+
+## 📊 Dashboards
+
+### 🧑 Citizen Dashboard
+- View submitted issues  
+- Resolution status  
+- Contribution points  
+- City ranking  
+---
+### 🏢 Staff Dashboard
+- View assigned issues  
+- Update status  
+- Approve or reject reports  
+
+---
+## 🧠 TEAM-SPARK System Architecture
+
+TEAM-SPARK follows a modern **client–server architecture** designed for scalability, security, and real-world civic operations.
+
+
+---
+
+### 🔐 Security Layer
+
+- Passwords are encrypted using **bcrypt**
+- All protected routes use **JWT authentication**
+- Role-based access for:
+  - Citizens
+  - Staff
+  - Admins
+
+---
+
+### 🧩 Key Components
+
+| Layer | Purpose |
+|------|---------|
+| Frontend | User Interface for citizens and staff |
+| Backend | API, authentication, and business logic |
+| Database | Stores users, staff, issues, and reports |
+| JWT | Secure session management |
+| MongoDB | High-performance NoSQL data storage |
+
+---
+
+### 🔄 Data Flow Example
+
+Citizen submits a report
+│
+▼
+Frontend → POST /api/report
+│
+▼
+Backend validates JWT
+│
+▼
+MongoDB stores issue
+│
+▼
+Staff dashboard receives new ticket
+
+---
+
+### 🚀 Why This Architecture?
+
+- Highly scalable  
+- Secure and encrypted  
+- Designed for government-grade applications  
+- Supports real-time dashboards  
+- Ready for future AI & analytics integration  
+
+---
+
+This architecture ensures that **TEAM-SPARK** can grow from a hackathon project into a full-scale smart-city platform.
+
+
+## 🏆 Why TEAM-EAGLE?
+
+- Solves real-world civic problems  
+- Scalable & secure  
+- Hackathon-grade UI & architecture  
+- AI-powered future ready  
+- Built for smart cities
